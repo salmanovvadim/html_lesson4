@@ -4,16 +4,18 @@
   box-sizing: border-box;
 }
 h1 {
-  font: 20px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif;
+  font: 18px/1.6 "Roboto Condensed", Helvetica, Arial, sans-serif;
   text-align: center; 
   font-weight: 700;
-  line-height: 50px;
-  letter-spacing: 1pt;
+  line-height: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
   }
 h2 {
-  font: 18px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  font-size: 20px;
+  font: 16px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 5px;
    }
 p {
   font: 11px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -38,7 +40,7 @@ form {
   overflow: hidden;
   text-align: left;
   font-weight: bold;
-  width: 410px;
+  width: 370px;
   height: auto;
   margin: 0 auto;
 }
@@ -52,9 +54,10 @@ input {
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 2px 0 10px 0;
   padding: 7px 3px;
+  font-size: 8pt;
 }
 legend {
-  font: 18px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-top: 10px;
   padding-bottom: 20px;
   text-align: center;
@@ -78,6 +81,7 @@ legend {
   border: 1px solid #c6c7cc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
   color: #636466;
+  font-size: 9pt;
 }
 .account-action {
   background: #f3f3f3;
@@ -93,8 +97,9 @@ legend {
   cursor: pointer;
   padding: 5px 15px 5px 15px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 0;
+  height: 42px;
 }
 .account-action label {
   color: #7c7c80;
@@ -120,9 +125,11 @@ select {
   line-height: 10pt;
   margin-bottom: 5pt;
   height: 10px;
+  font-weight: 300;
 }
 span {
   padding: 0;
+  font-weight: 300;
 }
 .u {
   padding-left: 5pt;

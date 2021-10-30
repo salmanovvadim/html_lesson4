@@ -6,9 +6,9 @@ body {
 }
 h1 {
   font-family: verdana;
-  font-size: 25pt;
+  font-size: 14pt;
   font-weight: 400;
-  color: #3b4f7e;
+  color: #364e85;
   margin-bottom: 15pt;
   padding-bottom: 15pt;
   border-bottom: 3px solid #c7c7c7;
@@ -16,23 +16,26 @@ h1 {
 img{
   border: 0;
   float: left;
-  margin-top: 15pt;
-  margin-right: 17pt;
-  margin-bottom: 20pt;
+  margin-top: 7pt;
+  margin-right: 12pt;
+  margin-bottom: 25pt;
   margin-left: 17px;
 }
 p {
   font-family: verdana;
-  font-size: 25px;
+  font-size: 10pt;
   margin: 8pt 0 0 0;
-  max-width: 1350px;
+  max-width: 740px;
+}
+form {
+  margin-left: 0;
 }
 span {
   font-weight: bold;
 }
 h2 {
-  color: #333279;
-  font-size: 22pt;
+  color: #3953ac;
+  font-size: 14pt;
   padding-top: 10px;
   margin-bottom: 15pt;
   padding-bottom: 15pt;
@@ -44,23 +47,24 @@ fieldset {
   padding-left: 0;
 }
 table {
-  margin-left: 5px;
+  margin-left: 0;
 }
 label {
 
-  font-size: 17pt;
+  font-size: 11pt;
   font-weight: 200;
   margin-right: 1px;
   margin-bottom: 40px;
   margin-top: 5px;
+  padding-top: 5px;
   color: rgb(77, 77, 77);
 }
 input {
-  height: 33px;
-  width:310px;
-  margin-top: 12px;
-  margin-bottom: 12px;
-  font-size: 19pt;
+  height: 15pt;
+  width:125pt;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 13pt;
 }
 .f {
   text-align: right;
@@ -69,80 +73,98 @@ input {
 }
 .x {
   font-family: verdana;
-  font-size: 19px;
+  font-size: 11pt;
   font-weight: 520;
   color: #c6c7cc;
   letter-spacing: unset;
+  margin-top: 0;
 }
 select {
-  height: 33px;
-  width:310px;
+  height: 10pt;
+  width:110pt;
   margin-bottom: 25px;
-  font-size: 17pt;
+  margin-left: 25px;
+  font-size: 10pt;
 }
 .o {
   font-weight: 700;
   margin-top: 0;
-  text-align: center;
+  text-align: right;
   margin-bottom: 10px;
-  padding-bottom:25px;
 }
 .o1 {
   font-weight: 700;
   margin-top: 0;
-  text-align: center;
+  text-align: right;
   margin-bottom: 10px;
-  padding-bottom:10px;
 }
 .s {
-   height: 33px;
-  width:310px;
+   height: 15pt;
+  width:125pt;
   margin-top: 12px;
   margin-bottom: 12px;
+  margin-left: 1px;
 }
 .s1 {
-   height: 33px;
-  width:310px;
-  margin-top: 12px;
+  height: 15pt;
+  width:125pt;
+  margin-top: 5px;
   margin-bottom: 0;
+  margin-left: 1px;
 }
 h3 {
-  color: #434283;
-  font-size: 17pt;
+  color: #3e5cbf;
+  font-size: 12pt;
   padding-top: 10px;
   margin-bottom: 15pt;
   padding-bottom: 15pt;
   border-bottom: 3px solid #c7c7c7;
 }
 .c {
-  margin-left: 0;
   margin-top: 0;
-  font-size: 19px;
-  font-weight: 700;
+  width: 500px;
+  font-size: 9pt;
+  font-weight: 500;
+  color: rgb(41, 40, 40);
 }
 .k {
+  height: 15pt;
+  width:125pt;
   margin-bottom: 0;
   padding-bottom: 0;
+  margin-left: 0;
 }
 .k1 {
   margin-bottom: 0;
   padding-bottom: 0;
-  margin-left: 30px;
+  margin-left: 55px;
 }
 .u {
   margin-top: 0;
 }
 .btn {
   margin-left: 40px;
-  width: 355px;
+  width: 215px;
   margin-bottom: 0;
+  font-size: 10pt;
 }
 .a1 {
   font-family: verdana;
-  font-size: 17px;
+  font-size: 8pt;
   font-weight: 520;
   color: #c6c7cc;
   letter-spacing: unset;
   margin-left: 40px;
   margin-top: 0;
+}
+.t1 {
+  margin-left: 25px;
+  margin-right: 0;
+  padding-right: 0;
+}
+.t2 {
+  margin-left: 32px;
+}
+a {
+  text-decoration: none;
 }
