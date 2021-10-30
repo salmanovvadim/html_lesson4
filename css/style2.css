@@ -8,24 +8,24 @@ h1 {
   font-family: verdana;
   font-size: 14pt;
   font-weight: 400;
-  color: #364e85;
-  margin-bottom: 15pt;
+  color: #354e8a;
+  margin-bottom: 12pt;
   padding-bottom: 15pt;
-  border-bottom: 3px solid #c7c7c7;
+  border-bottom: 3px solid #f3f1f1;
 }
 img{
   border: 0;
   float: left;
   margin-top: 7pt;
   margin-right: 12pt;
-  margin-bottom: 25pt;
+  margin-bottom: 20pt;
   margin-left: 17px;
 }
 p {
   font-family: verdana;
-  font-size: 10pt;
+  font-size: 9pt;
   margin: 8pt 0 0 0;
-  max-width: 740px;
+  max-width: 680px;
 }
 form {
   margin-left: 0;
@@ -35,11 +35,11 @@ span {
 }
 h2 {
   color: #3953ac;
-  font-size: 14pt;
-  padding-top: 10px;
-  margin-bottom: 15pt;
-  padding-bottom: 15pt;
-  border-bottom: 3px solid #c7c7c7;
+  font-size: 13pt;
+  padding-top: 8px;
+  margin-bottom: 3pt;
+  padding-bottom: 13pt;
+  border-bottom: 3px solid #f3f1f1;
 }
 fieldset {
   border: 0;
@@ -60,10 +60,11 @@ label {
   color: rgb(77, 77, 77);
 }
 input {
-  height: 15pt;
-  width:125pt;
+  height: 11pt;
+  width:110pt;
   margin-top: 6px;
   margin-bottom: 6px;
+  margin-left: 3px;
   font-size: 13pt;
 }
 .f {
@@ -73,7 +74,7 @@ input {
 }
 .x {
   font-family: verdana;
-  font-size: 11pt;
+  font-size: 7pt;
   font-weight: 520;
   color: #c6c7cc;
   letter-spacing: unset;
@@ -100,36 +101,37 @@ select {
 }
 .s {
    height: 15pt;
-  width:125pt;
+  width:115pt;
   margin-top: 12px;
   margin-bottom: 12px;
-  margin-left: 1px;
+  margin-left: 3px;
 }
 .s1 {
   height: 15pt;
-  width:125pt;
+  width:115pt;
   margin-top: 5px;
   margin-bottom: 0;
-  margin-left: 1px;
+  margin-left: 3px;
 }
 h3 {
-  color: #3e5cbf;
-  font-size: 12pt;
+  color: #586aa3;
+  font-size: 11pt;
   padding-top: 10px;
-  margin-bottom: 15pt;
-  padding-bottom: 15pt;
-  border-bottom: 3px solid #c7c7c7;
+  margin-bottom: 5pt;
+  padding-bottom: 7pt;
+  border-bottom: 3px solid #f3f1f1;
 }
 .c {
   margin-top: 0;
+  margin-left: 3px;
   width: 500px;
-  font-size: 9pt;
+  font-size: 8pt;
   font-weight: 500;
   color: rgb(41, 40, 40);
 }
 .k {
   height: 15pt;
-  width:125pt;
+  width:110pt;
   margin-bottom: 0;
   padding-bottom: 0;
   margin-left: 0;
@@ -143,22 +145,23 @@ h3 {
   margin-top: 0;
 }
 .btn {
-  margin-left: 40px;
-  width: 215px;
+  margin-left: 50px;
+  width: 187px;
+  height: 17pt;
   margin-bottom: 0;
-  font-size: 10pt;
+  font-size: 9pt;
 }
 .a1 {
   font-family: verdana;
-  font-size: 8pt;
+  font-size: 7pt;
   font-weight: 520;
   color: #c6c7cc;
   letter-spacing: unset;
-  margin-left: 40px;
+  margin-left: 47px;
   margin-top: 0;
 }
 .t1 {
-  margin-left: 25px;
+  margin-left: 20px;
   margin-right: 0;
   padding-right: 0;
 }
