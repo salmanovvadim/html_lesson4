@@ -3,32 +3,44 @@
 *:after {
   box-sizing: border-box;
 }
+body{
+  margin: 0;
+}
 h1 {
-  font: 18px/1.6 "Roboto Condensed", Helvetica, Arial, sans-serif;
-  text-align: center; 
+  font: 20.2px/2 "Roboto Condensed", "Arial narrow", sans-serif;
+  text-align: center;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 1px;
-  margin-bottom: 4px;
+  line-height: 30px;
+  margin-bottom: 21px;
   }
 h2 {
   font: 16px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 18px;
-  margin-top: 5px;
+  margin-top: 0;
+  margin-bottom: 19px;
    }
 p {
   font: 11px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   line-height: 12pt;
-  padding-bottom: 0;
+  padding: 0;
+  margin: 19px 0 0 0;
+}
+.p
+{
+  font: 11px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 12pt;
+  padding: 0;
+  margin: 6px 5px 10px 5px;
 }
 .c1 {
   text-align: center;
   margin: auto;
 }
 .foot {
-  font: 12px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 11px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   color: #c6c7cc;
   margin-top: 10pt;
@@ -40,7 +52,7 @@ form {
   overflow: hidden;
   text-align: left;
   font-weight: bold;
-  width: 370px;
+  width: 362px;
   height: auto;
   margin: 0 auto;
 }
@@ -50,7 +62,7 @@ fieldset {
   padding: 0;
 }
 input {
-  border-radius: 5px;
+  border-radius: 4px;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 2px 0 10px 0;
   padding: 7px 3px;
@@ -59,11 +71,11 @@ input {
 legend {
   font: 16px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 22px;
   text-align: center;
 }
 .account-info {
-  padding: 20px 20px 0 20px;
+  padding: 9px 21px 0 22px;
 }
 .account-info label {
   color: #395870;
@@ -86,7 +98,8 @@ legend {
 .account-action {
   background: #f3f3f3;
   border-top: 1px solid #c7c7c7;
-  padding: 10px 40px 15px 40px;
+  margin-top: 5px;
+  padding: 10px 24px 15px 41px;
   text-align: center;
   line-height: 10pt;
 }
@@ -99,7 +112,10 @@ legend {
   font-weight: bold;
   font-size: 14px;
   margin-top: 0;
-  height: 42px;
+  margin-left: 0;
+  margin-right: 16px;
+  margin-bottom: 12px;
+  height: 35px;
 }
 .account-action label {
   color: #7c7c80;
@@ -107,6 +123,13 @@ legend {
 }
 input[type="text"], input[type="email"],  select, textarea {
   width: 100%;
+  height: 26px;
+  margin-bottom: 15px;
+}
+input[type="textt"], input[type="email"],  select, textarea {
+  width: 100%;
+  height: 28px;
+  margin-bottom: 15px;
 }
 input[type="checkbox"] {
   margin-bottom: 0;
@@ -118,7 +141,7 @@ select {
   padding: 6px 3px;
 }
 .tel {
-   padding: 6px 3px;
+   padding: 0;
    margin: 0;
 }
 .t{
@@ -128,9 +151,16 @@ select {
   font-weight: 300;
 }
 span {
-  padding: 0;
+  padding: 2px 0;
   font-weight: 300;
 }
 .u {
+  margin-top: 4px;
   padding-left: 5pt;
+}
+.country{
+  margin-top: 2px;
+}
+.password{
+  margin-top: 5px;
 }
