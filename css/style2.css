@@ -1,7 +1,7 @@
 body {
   font-family: Arial;
   text-align: left;
-  margin-left: 8px;
+  margin-left: 0;
   margin-right: 15pt;
   padding-top: 0;
   margin-top: 2px;
@@ -11,6 +11,7 @@ h1 {
   font-size: 18px;
   font-weight: 400;
   color: #284175;
+  margin-left: 8px;
   margin-bottom: 14px;
   padding-bottom: 13pt;
   border-bottom: 2px solid #f3f1f1;
@@ -22,26 +23,29 @@ img{
   margin-top: 8px;
   margin-right: 9px;
   margin-bottom: 20pt;
-  margin-left: 10px;
+  margin-left: 14px;
 }
 p {
   font-family: verdana;
   font-size: 9.8pt;
   margin: 5px 0 0 0;
   max-width: 715px;
-  padding-left: 0;
+  padding-left: 3px;
+  letter-spacing: 0;
 }
 form {
   margin-left: 0;
 }
 span {
   font-weight: bold;
+  padding-left: 2px;
 }
 h2 {
   color: #577498;
   font-size: 12pt;
   font-weight: 800;
-  padding-top: 8px;
+  padding-top: 7px;
+  margin-left: 8px;
   margin-bottom: 0;
   padding-bottom: 11pt;
   border-bottom: 2px solid #f3f1f1;
@@ -59,7 +63,7 @@ table {
 }
 label {
 
-  font-size: 9pt;
+  font-size: 10pt;
   font-weight: 200;
   margin-right: 0;
   margin-bottom: 40px;
@@ -70,20 +74,21 @@ label {
   color: rgb(77, 77, 77);
 }
 input {
-  height: 12pt;
-  width:115pt;
+  height: 11pt;
+  width:113pt;
   margin-top: 6px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   margin-left: 0;
   font-size: 10pt;
 }
 .f {
+  font-size: 8px;
   text-align: right;
   font-family: verdana;
   color: rgb(66, 66, 66);
   padding-bottom: 5px;
-  padding-top: 0;
-  padding-left: 0;
+  padding-top: 3px;
+  padding-left: 4px;
   padding-right: 0;
   margin: 0;
 }
@@ -94,7 +99,6 @@ input {
   color: #c6c7cc;
   letter-spacing: unset;
   margin-top: 0;
-  margin-right: 3px;
   margin-left: 0;
 }
 select {
@@ -108,6 +112,7 @@ select {
   margin-top: 0;
   text-align: right;
   margin-bottom: 15px;
+  padding-top: 2px;
   padding-bottom: 12px;
 }
 .o1 {
@@ -115,17 +120,18 @@ select {
   margin-top: 0;
   text-align: right;
   margin-bottom: 0;
+  padding-left: 5px;
 }
 .s {
   height: 19px;
-  width:167px;
+  width:165px;
   margin-top: 9px;
   margin-bottom: 10px;
   margin-left: 3px;
 }
 .s1 {
   height: 19px;
-  width:166px;
+  width:164px;
   margin-top: 4px;
   margin-bottom: 0;
   margin-left: 5px;
@@ -142,7 +148,7 @@ h3 {
 }
 .c {
   margin-top: 0;
-  margin-left: 6px;
+  margin-left: 4px;
   width: 500px;
   font-size: 10.1px;
   font-weight: 600;
@@ -200,8 +206,11 @@ a {
   text-decoration: none;
 }
 .aduc{
+  margin-left: 9px;
   margin-top: 20px;
   font-size: 12pt;
+  margin-bottom: 0;
+  padding-bottom: 12px;
 }
 .school{
   font-size: 14px;
