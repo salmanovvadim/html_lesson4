@@ -75,6 +75,14 @@ label {
 }
 input {
   height: 11pt;
+  width:112pt;
+  margin-top: 6px;
+  margin-bottom: 7px;
+  margin-left: 0;
+  font-size: 10pt;
+}
+.xx {
+  height: 11pt;
   width:113pt;
   margin-top: 6px;
   margin-bottom: 7px;
@@ -100,10 +108,12 @@ input {
   letter-spacing: unset;
   margin-top: 0;
   margin-left: 0;
+  padding-left: 0;
 }
 select {
   height: 10pt;
   width:115pt;
+  margin-top: 0;
   margin-bottom: 15px;
   font-size: 8pt;
 }
@@ -141,14 +151,16 @@ h3 {
   font-size: 10pt;
   font-weight: 900;
   margin-top: 3px;
-  padding-top: 22px;
-  margin-bottom: 2px;
+  padding-top: 23px;
+  margin-bottom: 0;
   padding-bottom: 15px;
   border-bottom: 2px solid #f3f1f1;
+  padding-left: 8px;
 }
 .c {
   margin-top: 0;
   margin-left: 4px;
+  margin-bottom: 1px;
   width: 500px;
   font-size: 10.1px;
   font-weight: 600;
@@ -156,7 +168,7 @@ h3 {
 }
 .k {
   height: 19px;
-  width:165px;
+  width:166px;
   margin-bottom: 0;
   padding-top: 0;
   padding-left: 0;
@@ -168,6 +180,7 @@ h3 {
   padding-bottom: 0;
   margin-left: 38px;
   padding-right: 6px;
+  padding-top: 6px;
 }
 .u {
   margin-top: 0;
@@ -176,12 +189,13 @@ h3 {
 }
 .btn {
   font-family: Arial;
-  margin-left: 32px;
+  margin-left: 40px;
   width: 209px;
   height: 16pt;
-  margin-top: 10px;
+  margin-top: 12px;
   margin-bottom: 0;
   font-size: 10pt;
+  padding-left: 0;
 }
 .a1 {
   font-family: verdana;
@@ -214,6 +228,20 @@ a {
 }
 .school{
   font-size: 14px;
-  padding: 0 4px 0 0;
+  padding: 5px 5px 0 5px;
   margin-bottom: 0;
+}
+.ss{
+  border: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.sss{
+  border: 0;
+  margin-left: 0;
+  padding-left: 7px;
+  padding-top: 12px;
+  padding-bottom: 7px;
 }
