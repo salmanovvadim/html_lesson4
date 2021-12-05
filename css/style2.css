@@ -83,6 +83,9 @@ input {
   margin-left: 0;
   font-size: 10pt;
 }
+input [type="password"]{
+  margin-left: 0;
+}
 .xx {
   height: 11pt;
   width:113pt;
@@ -138,7 +141,7 @@ select {
 }
 .s {
   height: 19px;
-  width:164px;
+  width:162px;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 4px;
@@ -177,6 +180,7 @@ h3 {
   padding-top: 0;
   padding-left: 0;
   padding-bottom: 0;
+  margin-left: 0;
 
 }
 .k1 {
